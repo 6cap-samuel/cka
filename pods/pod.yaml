@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    key: value
+    run: nginx
+    app: myapp
+    type: front-ends
+  creationTimestamp: null
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
