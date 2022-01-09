@@ -1,4 +1,4 @@
-# Pods
+# Replica Sets
 * Replicasets contains multiple pods which provides High Availability
 * Replication Controller is the older technology that was replcaed by Replicasets
 * ReplicaSet contains selectors but ReplciationController does not

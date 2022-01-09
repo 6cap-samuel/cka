@@ -31,8 +31,3 @@ Create the pod with apply command
 ```bash
 kubectl apply -f pod.yaml
 ```
-
-
-
-
-
