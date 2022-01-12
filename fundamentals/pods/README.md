@@ -31,3 +31,8 @@ Create the pod with apply command
 ```bash
 kubectl apply -f pod.yaml
 ```
+
+Shows all information about the pod and more details like nodes
+```bash
+k get pods --all-namespaces -o wide
+```
